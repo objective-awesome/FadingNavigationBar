@@ -22,6 +22,7 @@
 		5DBB14671851582600F255A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBB14461851582600F255A4 /* UIKit.framework */; };
 		5DBB146F1851582600F255A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DBB146D1851582600F255A4 /* InfoPlist.strings */; };
 		5DBB14711851582600F255A4 /* FadingNavigationBarTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB14701851582600F255A4 /* FadingNavigationBarTestTests.m */; };
+		5DBB14AE185162BA00F255A4 /* UIImage+ImageWithAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBB14AD185162BA00F255A4 /* UIImage+ImageWithAlpha.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		5DBB146C1851582600F255A4 /* FadingNavigationBarTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FadingNavigationBarTestTests-Info.plist"; sourceTree = "<group>"; };
 		5DBB146E1851582600F255A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5DBB14701851582600F255A4 /* FadingNavigationBarTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FadingNavigationBarTestTests.m; sourceTree = "<group>"; };
+		5DBB14AC185162BA00F255A4 /* UIImage+ImageWithAlpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithAlpha.h"; sourceTree = "<group>"; };
+		5DBB14AD185162BA00F255A4 /* UIImage+ImageWithAlpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithAlpha.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				5DBB145B1851582600F255A4 /* FNTDetailViewController.m */,
 				5DBB145D1851582600F255A4 /* Images.xcassets */,
 				5DBB14491851582600F255A4 /* Supporting Files */,
+				5DBB14AC185162BA00F255A4 /* UIImage+ImageWithAlpha.h */,
+				5DBB14AD185162BA00F255A4 /* UIImage+ImageWithAlpha.m */,
 			);
 			path = FadingNavigationBarTest;
 			sourceTree = "<group>";
@@ -255,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DBB14AE185162BA00F255A4 /* UIImage+ImageWithAlpha.m in Sources */,
 				5DBB14591851582600F255A4 /* FNTMasterViewController.m in Sources */,
 				5DBB144F1851582600F255A4 /* main.m in Sources */,
 				5DBB145C1851582600F255A4 /* FNTDetailViewController.m in Sources */,

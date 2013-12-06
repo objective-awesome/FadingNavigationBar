@@ -30,6 +30,9 @@
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
+    
+    self.navigationController.navigationBar.translucent = YES;
+    [UINavigationBar appearance].alpha = 0.0;
 }
 
 - (void)didReceiveMemoryWarning
